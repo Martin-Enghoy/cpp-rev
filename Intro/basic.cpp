@@ -23,9 +23,20 @@ int main()
     // this is definition = declaration + initialisation
     int b = 20;
 
-    cout << "Hello World!";
+    cout << "Hello World!" << endl;
 
-    printf("This is the value of gravity %.2f", gravity);
+    cout << "Number1" << endl;
+    cout << "Number2" << endl;
+
+    printf("This is the value of gravity %.2f\n", gravity);
+
+    // Statements
+    int num1{10};
+    int num2{11};
+
+    cout
+        << "Num1: " << num1 << endl;
+    cout << "Num2: " << num2 << endl;
 
     return 0;
 }
