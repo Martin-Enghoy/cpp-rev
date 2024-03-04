@@ -9,7 +9,6 @@ int main()
     // Case-sensitive, can contain digits, no whitespace and special characters,
     float simpleInterest;
     int time, speed;
-    char name;
 
     // Constant, immutable
     const float gravity = 9.8;
@@ -37,6 +36,26 @@ int main()
     cout
         << "Num1: " << num1 << endl;
     cout << "Num2: " << num2 << endl;
+
+    // string name;
+    // cout << "Please input your name: " << endl;
+    // cin >> name;
+
+    // cout << "Hello, " << name << endl;
+
+    // string firstname, lastname;
+    // cout << "Please input your First Name and Last Name: " << endl;
+    // cin >> firstname >> lastname;
+
+    // cout << "Hello, " << firstname << " " << lastname << endl;
+
+    string fullname;
+
+    cout << "Please input your Full Name: " << endl;
+    getline(cin, fullname);
+
+    cout
+        << "Hello, " << fullname << endl;
 
     return 0;
 }

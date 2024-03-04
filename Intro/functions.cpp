@@ -36,6 +36,7 @@ int main()
 
     int sum = addNumbers(5, 6);
 
+    // Data goes from right to left, basically cout is the .exe file that runs on the cli
     cout << "Function Sum: " << sum << endl;
     cout << "Function Call Sum: " << addNumbers(30, 20) << endl;
 
