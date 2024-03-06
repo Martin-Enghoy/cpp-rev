@@ -30,6 +30,7 @@ n(floating point) / 0 === Infinity
 - As the range f your data grows, so will the number of digits you need to represent the data in memory.
 - Hexadecimal system makes it a little easier for humans to handle streams of data with 1's and 0's.
 - Octal has the same goal as Hexa, but it's almost no longer used in modern times. It's just mentioned here for your awareness.
+- A byte can store 256 different values. Covering two states of a boolean (true/false) is really wasteful.
 
 > To check memory size, can possibly use sizeof() function
 
@@ -38,3 +39,5 @@ n(floating point) / 0 === Infinity
 - Braced Initialization
 - Functional Initilization
 - Assignment Initialization
+
+### Characters / Text
